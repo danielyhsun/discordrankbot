@@ -6,7 +6,7 @@ import os
 client = discord.Client()
 
 # Constant
-DISCORD_TOKEN = "NTA0NjMzOTMxMDQwMDMwNzIx.DrQpTw.T_iMHx1qHcd8InhUdxfmDMuT4hQ"
+DISCORDTOKEN = "NTA0NjMzOTMxMDQwMDMwNzIx.DrQpTw.T_iMHx1qHcd8InhUdxfmDMuT4hQ"
 
 FORTNITE_API_KEY = '8a550d1d-d800-4b71-87b3-1281b9efc8f2'
 
@@ -215,6 +215,6 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-token = os.environ.get("DISCORD_TOKEN")
+token = os.environ.get("DISCORDTOKEN")
 client.run(token)
 
