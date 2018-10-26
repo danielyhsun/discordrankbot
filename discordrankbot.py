@@ -6,7 +6,7 @@ import os
 client = discord.Client()
 
 # Constant
-DISCORD_TOKEN = "NTA0NjMzOTMxMDQwMDMwNzIx.DrH75w.BQiCjsBY28TK3hgArPOH5bx6vbM"
+DISCORD_TOKEN = "NTA0NjMzOTMxMDQwMDMwNzIx.DrQpTw.T_iMHx1qHcd8InhUdxfmDMuT4hQ"
 
 FORTNITE_API_KEY = '8a550d1d-d800-4b71-87b3-1281b9efc8f2'
 
