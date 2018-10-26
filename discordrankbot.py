@@ -215,7 +215,6 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-keep_alive()
 token = os.environ.get("DISCORD_TOKEN")
 client.run(token)
 
